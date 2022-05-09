@@ -1,0 +1,5 @@
+---
+- name: Config Web VM with Docker
+    hosts: web
+    become: true
+    tasks:
